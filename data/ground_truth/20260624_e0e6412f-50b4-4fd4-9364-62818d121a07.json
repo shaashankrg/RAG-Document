@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20260624_e0e6412f-50b4-4fd4-9364-62818d121a07.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 42,
+  "fields": {
+    "brand_name": "IBRANCE",
+    "generic_name": "palbociclib",
+    "dosage_form": "capsule",
+    "manufacturer_labeler": "Pfizer Laboratories Div Pfizer Inc",
+    "application_number": "NDA207103",
+    "initial_us_approval": "2015",
+    "revision_dates": {
+      "prescribing_information": "9/2025",
+      "spl_document": "6/2026",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "Kinase inhibitor indicated for adult patients with hormone receptor (HR)-positive, HER2-negative advanced or metastatic breast cancer, in combination with an aromatase inhibitor, fulvestrant, or inavolisib and fulvestrant.",
+    "dosage_forms_strengths": "Capsules: 125 mg, 100 mg, and 75 mg",
+    "ndc": null
+  },
+  "notes": "No boxed warning despite being an oncology drug -- contraindications section explicitly states 'None'. Has two distinct, both-legitimate 'Revised:' dates: the Prescribing Information body says 9/2025, while the SPL document's trailing establishment block says 6/2026, a 9-month gap. See revision_dates for both rather than a single collapsed value."
+}

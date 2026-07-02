@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20140820_2468ba8d-4c77-4ea0-88d8-b64497a72222.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 29,
+  "fields": {
+    "brand_name": "CHANTIX",
+    "generic_name": "varenicline tartrate",
+    "dosage_form": "tablet, film coated",
+    "manufacturer_labeler": "Carilion Materials Management",
+    "application_number": "NDA021928",
+    "initial_us_approval": "2006",
+    "revision_dates": {
+      "prescribing_information": "8/2014",
+      "spl_document": "6/2014",
+      "medication_guide": null
+    },
+    "has_boxed_warning": true,
+    "boxed_warning_title": "SERIOUS NEUROPSYCHIATRIC EVENTS",
+    "indication_summary": "Nicotinic receptor partial agonist indicated as an aid to smoking cessation treatment.",
+    "dosage_forms_strengths": "Tablets: 0.5 mg and 1 mg",
+    "ndc": "68151-4952-5"
+  },
+  "notes": "This is a repackaged label (Carilion Materials Management is the repackager, not the original NDA holder Pfizer). It has two distinct, both-legitimate 'Revised:' dates: the Prescribing Information itself says 8/2014, while the SPL document's trailing establishment/repack block says 6/2014 -- likely because the repackager (Carilion) resubmitted SPL packaging data on a different date than the underlying label content's last revision. See revision_dates for both; do not collapse to a single value."
+}

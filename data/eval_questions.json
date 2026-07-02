@@ -1,0 +1,23 @@
+[
+  {
+    "id": "q001",
+    "document": "sample_clinical_report.pdf",
+    "question": "What is the study sponsor listed on the document?",
+    "ground_truth": "Pfizer Inc.",
+    "field_type": "sponsor"
+  },
+  {
+    "id": "q002",
+    "document": "sample_clinical_report.pdf",
+    "question": "What is the protocol number?",
+    "ground_truth": "C3441001",
+    "field_type": "protocol_number"
+  },
+  {
+    "id": "q003",
+    "document": "sample_clinical_report.pdf",
+    "question": "What is the primary endpoint of the study?",
+    "ground_truth": "Overall survival at 12 months",
+    "field_type": "primary_endpoint"
+  }
+]

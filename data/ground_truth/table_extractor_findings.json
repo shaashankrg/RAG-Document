@@ -1,0 +1,43 @@
+{
+  "clean_reference_example": {
+    "source_pdf": "20250720_d4e2cf51-e6a8-4103-bb1d-6120c6474ff8.pdf",
+    "document": "PREVNAR 20",
+    "page_num": 4,
+    "bbox": [38.4, 57.4, 393.2, 108.2],
+    "table_title_on_page": "Vaccination at 7 Months Through 17 Years of Age",
+    "extracted_rows": [
+      ["Age at First Dose", "Total Number of 0.5-mL Doses"],
+      ["7 through 11 months of age", "3?"],
+      ["12 through 23 months of age", "2?"],
+      ["24 months of age and above", "1"]
+    ],
+    "verified_against_rendered_page": true,
+    "notes": "Verified cell-by-cell against a rendered PNG of the page. Header row and all 3 data rows land in the correct columns. The '?' in '3?' and '2?' is a footnote-marker glyph (dagger/double-dagger) that PyMuPDF can't map to ASCII -- a font-encoding artifact, not a table-structure error. This is a simple 2-column table with a single header row and no merged cells, which is the case PyMuPDF's find_tables() handles reliably."
+  },
+  "documented_limitations": [
+    {
+      "title": "Adjacent sub-tables sharing one outer border get merged into a single table object",
+      "source_pdf": "20250720_d4e2cf51-e6a8-4103-bb1d-6120c6474ff8.pdf",
+      "document": "PREVNAR 20",
+      "page_num": 34,
+      "bbox": [39.4, 5.0, 454.6, 371.9],
+      "reported_shape": "22 rows x 11 cols",
+      "root_cause": "The page has 3-4 visually distinct tables (tail of an Active Ingredient table, Inactive Ingredients, Packaging, Marketing Information) enclosed in one continuous outer rectangle with only thin internal rules separating them. find_tables() detects the outer rectangle as a single table and unions the column-divider positions from every sub-table into one 11-column grid, so a 2-column table (Ingredient Name | Strength) and a 5-column table (#, Item Code, Package Description, Marketing Start Date, Marketing End Date) end up sharing the same row grid, padded with blank cells.",
+      "verified_against_rendered_page": true,
+      "impact": "Cell VALUES are not scrambled -- each row's real data lands in the column index matching its own sub-table's header, confirmed by comparing to the rendered page. But `ExtractedTable.header` (rows[0]) and `to_dict_list()` are broken, because rows[0] is a blank/leftover row from the previous section, not a real header, and a single header can't describe 3 different logical tables in one object.",
+      "recommendation": "Do not rely on `to_dict_list()` for FDA SPL 'Packaging'/'Marketing Information'/'Inactive Ingredients' boilerplate sections. If those fields matter for the eval harness, either detect sub-table boundaries by looking for bold section-label rows (e.g. a row where only column 0 is non-empty) and split on those, or parse this boilerplate with a dedicated regex/anchor approach instead of find_tables()."
+    },
+    {
+      "title": "Multi-level (spanning) column headers and intervening body text collapse into one giant unusable table",
+      "source_pdf": "20260624_e0e6412f-50b4-4fd4-9364-62818d121a07.pdf",
+      "document": "IBRANCE",
+      "page_num": 11,
+      "bbox": [28.3, 14.5, 583.2, 785.0],
+      "reported_shape": "16 rows x 15 cols",
+      "root_cause": "The page contains: the last few rows of 'Table 6' (Adverse Reactions), several paragraphs of plain footnote/body text (grading key, symbol definitions, a prose paragraph on reactions <10%), and then a completely separate 'Table 7. Laboratory Abnormalities in PALOMA-3' with a 2-level merged header (a top-level group label spanning 3 sub-columns per treatment arm, e.g. 'IBRANCE plus Fulvestrant (N=345)' over 'All Grades / Grade 3 / Grade 4'). find_tables() merged all of this -- table + prose + table -- into one 16x15 grid spanning nearly the entire page height.",
+      "verified_against_rendered_page": true,
+      "impact": "Row 1 of the extracted table dumps ~1500 characters of unrelated footnote prose into a single cell (row[1][0]), while scattered adjacent cells hold orphaned numbers from Table 6's last row ('Vomiting', 19, 1, 0, 15, 1, 0). Table 7's 2-level header (group label + sub-column label) is flattened into two separate rows with the group label only appearing under column 2 and column 8, with unlabeled blank columns in between -- the row-to-header column mapping used by to_dict_list() would be completely wrong here.",
+      "recommendation": "Tables with grouped/spanning column headers (common in adverse-reaction and lab-abnormality tables comparing two treatment arms) need either a table-detection library aware of merged cells (e.g. pymupdf's own suggested `pymupdf_layout` add-on, or camelot/pdfplumber with explicit ruling-line strategies), or manual per-document anchor extraction. Do not attempt to auto-parse these with the current table_extractor.py -- treat any table wider than ~7-8 columns as suspect and hand-verify before using its output."
+    }
+  ]
+}

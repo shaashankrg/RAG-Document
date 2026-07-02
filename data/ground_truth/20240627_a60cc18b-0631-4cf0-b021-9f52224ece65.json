@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20240627_a60cc18b-0631-4cf0-b021-9f52224ece65.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 43,
+  "fields": {
+    "brand_name": "LIPITOR",
+    "generic_name": "atorvastatin calcium",
+    "dosage_form": "tablet, film coated",
+    "manufacturer_labeler": "Viatris Specialty LLC",
+    "application_number": "NDA020702",
+    "initial_us_approval": "1996",
+    "revision_dates": {
+      "prescribing_information": "4/2024",
+      "spl_document": "4/2024",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "HMG-CoA reductase inhibitor (statin) indicated to reduce risk of MI, stroke, and revascularization in adults with multiple CHD risk factors, and as an adjunct to diet to reduce LDL-C in adults and pediatric patients with primary hyperlipidemia.",
+    "dosage_forms_strengths": "Tablets: 10 mg; 20 mg; 40 mg; 80 mg of atorvastatin",
+    "ndc": "58151-158-77"
+  },
+  "notes": "No boxed warning present in this label, unlike CHANTIX and XELJANZ in this sample set. CORRECTED: revision_date was originally transcribed as 4/2023, which was wrong -- it came from misreading truncated terminal output that had spliced in PREVNAR 20's revision date. Verified directly against the source text: all three 'Revised:' occurrences in this document (Prescribing Information, Patient Package Information, and SPL footer) consistently say 4/2024, so there is no cross-date ambiguity here, unlike CHANTIX/PREVNAR 20/IBRANCE. ndc is one representative package NDC (10 mg strength); LIPITOR ships under a distinct NDC per strength (10/20/40/80 mg) and package size, not captured here. CAVEAT: indication_summary content (MI/stroke risk reduction, LDL-C indications) is real, verified quoted content from the document, but in the extracted text it appears attached after a 'WARNINGS AND PRECAUTIONS' header rather than 'INDICATIONS AND USAGE' -- a column/reading-order artifact in this label's HIGHLIGHTS section (the bulleted indication content and the warnings header appear adjacent in extraction order even though they belong to different sections on the actual page). Field value is accurate; the anchor phrase it would need for automated regex extraction is not reliable here."
+}

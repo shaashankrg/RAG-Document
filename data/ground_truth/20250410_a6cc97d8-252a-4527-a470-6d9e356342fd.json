@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20250410_a6cc97d8-252a-4527-a470-6d9e356342fd.pdf",
+  "document_type": "otc_drug_facts_label",
+  "num_pages": 10,
+  "fields": {
+    "brand_name": "ADVIL ALLERGY AND CONGESTION RELIEF",
+    "generic_name": "chlorpheniramine maleate, ibuprofen, and phenylephrine hydrochloride",
+    "dosage_form": "tablet, coated",
+    "manufacturer_labeler": "Haleon US Holdings LLC",
+    "application_number": "NDA022113",
+    "initial_us_approval": null,
+    "revision_dates": {
+      "prescribing_information": null,
+      "spl_document": "4/2025",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "Temporarily relieves symptoms of hay fever/upper respiratory allergies and the common cold: runny nose, itchy/watery eyes, itching of the nose or throat, sneezing, nasal congestion, sinus pressure, headache, minor body aches and pains, fever.",
+    "dosage_forms_strengths": "Chlorpheniramine maleate 4 mg; Ibuprofen 200 mg (NSAID); Phenylephrine HCl 10 mg per tablet",
+    "ndc": "0573-2161-03"
+  },
+  "notes": "OTC 'Drug Facts' format, not the Rx 'Highlights of Prescribing Information' format used by the other 5 documents in this sample set -- no Initial U.S. Approval year listed, and no numbered sections (1 INDICATIONS, 2 DOSAGE, etc), so there is no separate 'Prescribing Information' revision date to compare against the single SPL date this format has. CORRECTED: indication_summary originally dropped two items from the source symptom list ('itching of the nose or throat' and the word 'body' in 'minor body aches and pains') -- re-verified word-for-word against the extracted text and fixed."
+}

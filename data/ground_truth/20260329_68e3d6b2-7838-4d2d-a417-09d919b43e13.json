@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20260329_68e3d6b2-7838-4d2d-a417-09d919b43e13.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 95,
+  "fields": {
+    "brand_name": "XELJANZ / XELJANZ XR",
+    "generic_name": "tofacitinib",
+    "dosage_form": "tablet, film coated; tablet, extended release; oral solution",
+    "manufacturer_labeler": "U.S. Pharmaceuticals (Pfizer)",
+    "application_number": "NDA203214, NDA208246, NDA213082",
+    "initial_us_approval": "2012",
+    "revision_dates": {
+      "prescribing_information": "3/2026",
+      "spl_document": "3/2026",
+      "medication_guide": "October 2025"
+    },
+    "has_boxed_warning": true,
+    "boxed_warning_title": "SERIOUS INFECTIONS, MORTALITY, MALIGNANCY, MAJOR ADVERSE CARDIOVASCULAR EVENTS, and THROMBOSIS",
+    "indication_summary": "Janus kinase (JAK) inhibitor indicated for moderately to severely active rheumatoid arthritis, psoriatic arthritis, and polyarticular course juvenile idiopathic arthritis, among other indications, in adults with inadequate response or intolerance to one or more TNF blockers.",
+    "dosage_forms_strengths": "XELJANZ tablets: 5 mg and 10 mg; XELJANZ XR extended-release tablets: 11 mg and 22 mg; XELJANZ oral solution: 1 mg/mL",
+    "ndc": null
+  },
+  "notes": "Three separate NDA numbers cover the tablet, oral solution, and XR extended-release formulations combined into one label. Largest document in this sample set (95 pages). Prescribing Information and SPL document both say 3/2026, but the bundled Medication Guide has its own, older revision date (October 2025) -- a third distinct date not visible if you only grep the top or bottom of the document. CORRECTED: dosage_forms_strengths originally said 'Tablets and oral solution: tofacitinib; XR: extended-release tablets', which named the formulations but omitted every actual strength -- effectively meaningless for benchmarking. Re-extracted the real mg values from scattered bullet fragments in the DOSAGE FORMS AND STRENGTHS section (each number individually verified against the source text) and the tablet-description text later in the document (5 mg/10 mg tablets, 11 mg/22 mg XR tablets, 1 mg/mL oral solution)."
+}
