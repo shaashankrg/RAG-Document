@@ -17,7 +17,7 @@ def run_tesseract_with_confidence(img: np.ndarray, lang: str = "eng") -> dict:
     pil_img = Image.fromarray(img)
     data = pytesseract.image_to_data(pil_img, lang=lang, output_type=pytesseract.Output.DICT)
     words = [
-        {"text": w, "conf": c}
+        {"text": w, "conf": int(c)}
         for w, c in zip(data["text"], data["conf"])
         if w.strip() and int(c) > 0
     ]

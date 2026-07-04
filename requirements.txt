@@ -3,14 +3,26 @@ pymupdf==1.24.5
 
 # OCR engines
 pytesseract==0.3.10
+# paddleocr doesn't declare paddlepaddle as a pip dependency (CPU/GPU builds
+# differ), so it must be pinned separately. paddleocr 2.7.3 targets the
+# PaddlePaddle 2.x API -- pin to that generation, not the newer 3.x line.
+paddlepaddle==2.6.2
 paddleocr==2.7.3
 easyocr==1.7.1
-opencv-python-headless==4.9.0.80
+# paddleocr hard-requires opencv-python<=4.6.0.66 and opencv-contrib-python<=4.6.0.66
+# in addition to opencv-python-headless, so all three end up installed side by side
+# (they share the same importable `cv2` module). Pin all three to the same version
+# so whichever one wins on disk doesn't introduce an API-version mismatch.
+opencv-python-headless==4.6.0.66
+opencv-python==4.6.0.66
+opencv-contrib-python==4.6.0.66
 Pillow==10.3.0
 
 # RAG / vector index
 llama-index==0.10.40
 llama-index-vector-stores-faiss==0.1.2
+llama-index-embeddings-huggingface==0.2.1
+llama-index-llms-gemini==0.1.11
 faiss-cpu==1.8.0
 sentence-transformers==3.0.1
 
