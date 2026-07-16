@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20260607_9ef08e09-1098-35cc-e053-2a95a90a3e1d.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 33,
+  "fields": {
+    "brand_name": "NURTEC ODT",
+    "generic_name": "rimegepant sulfate",
+    "dosage_form": "tablet, orally disintegrating",
+    "manufacturer_labeler": "Pfizer Laboratories Div Pfizer Inc",
+    "application_number": "NDA212728",
+    "initial_us_approval": "2020",
+    "revision_dates": {
+      "prescribing_information": "4/2026",
+      "spl_document": "6/2026",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "Calcitonin gene-related peptide (CGRP) receptor antagonist indicated for the acute treatment of migraine with or without aura in adults, and the preventive treatment of episodic migraine in adults.",
+    "dosage_forms_strengths": "Orally disintegrating tablets: 75 mg",
+    "ndc": null
+  },
+  "notes": "Has two distinct, both-legitimate 'Revised:' dates: Prescribing Information and its Patient Information insert both say 4/2026, while the SPL trailing block says 6/2026 -- a 2-month gap (medication_guide null: the insert is 'Patient Information', not a formal Medication Guide; its 4/2026 date matches the PI so no third date to record). Newest document in the sample set by content date. Labeler NDC prefix (72618, the acquired Biohaven code) differs from the 0069 Pfizer prefix on the other Pfizer-labeled documents -- a good test that labeler extraction is not keying off NDC prefix. Multiple package NDCs (72618-3000-2; 72618-3001-1/-2/-4 blister configurations); ndc left null rather than picking one."
+}

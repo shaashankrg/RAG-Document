@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20260213_0b0be196-0c62-461c-94f4-9a35339b4501.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 40,
+  "fields": {
+    "brand_name": "VIAGRA",
+    "generic_name": "sildenafil citrate",
+    "dosage_form": "tablet, film coated",
+    "manufacturer_labeler": "PFIZER LABORATORIES DIV PFIZER INC",
+    "application_number": "NDA020895",
+    "initial_us_approval": "1998",
+    "revision_dates": {
+      "prescribing_information": "12/2017",
+      "spl_document": "12/2017",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "Phosphodiesterase-5 (PDE5) inhibitor indicated for the treatment of erectile dysfunction (ED).",
+    "dosage_forms_strengths": "Tablets: 25 mg, 50 mg, 100 mg",
+    "ndc": null
+  },
+  "notes": "PI and SPL 'Revised:' dates agree (12/2017), but the patient-information insert mid-document carries its own older footer 'Revised: 08/2017' -- same third-date pattern as NORVASC in this set (FDA-approved patient labeling, not a Medication Guide, so medication_guide stays null and the date is recorded here). Oldest content revision in the new-document batch (2017), useful for testing date-recency assumptions. Three bottle NDCs, one per strength (0069-4200-30, 0069-4210-30, 0069-4220-30) plus a 100-count 0069-4220-66 in the SPL packaging data; no single value represents that, so ndc left null."
+}

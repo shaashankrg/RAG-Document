@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20250504_e9481622-7cc6-418a-acb6-c5450daae9b0.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 66,
+  "fields": {
+    "brand_name": "ELIQUIS",
+    "generic_name": "apixaban",
+    "dosage_form": "tablet, film coated; tablet for oral suspension; for oral suspension (sprinkle)",
+    "manufacturer_labeler": "E.R. Squibb & Sons, L.L.C.",
+    "application_number": "NDA202155",
+    "initial_us_approval": "2012",
+    "revision_dates": {
+      "prescribing_information": "4/2025",
+      "spl_document": "4/2025",
+      "medication_guide": "04/2025"
+    },
+    "has_boxed_warning": true,
+    "boxed_warning_title": "(A) PREMATURE DISCONTINUATION OF ELIQUIS INCREASES THE RISK OF THROMBOTIC EVENTS (B) SPINAL/EPIDURAL HEMATOMA",
+    "indication_summary": "Factor Xa inhibitor indicated to reduce the risk of stroke and systemic embolism in adult patients with nonvalvular atrial fibrillation; for prophylaxis of DVT (which may lead to PE) after hip or knee replacement surgery; for treatment of DVT and PE and reduction in risk of their recurrence following initial therapy; and for treatment of VTE and reduction of recurrent VTE risk in pediatric patients from birth and older.",
+    "dosage_forms_strengths": "Tablets: 2.5 mg and 5 mg; Tablet For Oral Suspension: 0.5 mg; For Oral Suspension: 0.15 mg in a yellow opaque capsule",
+    "ndc": null
+  },
+  "notes": "First document in this sample set with a two-part lettered boxed warning -- the title is split into '(A)' and '(B)' subheadings rather than a single phrase, which any boxed-warning-title extractor needs to handle. The SPL title also covers a second product listing, 'ELIQUIS 30-DAY STARTER PACK'. Labeler is E.R. Squibb & Sons (BMS side of the BMS-Pfizer alliance; adverse-reaction contact is Bristol-Myers Squibb), not a Pfizer entity. All three revision dates agree on April 2025: PI 'Revised: 4/2025', Medication Guide 'Revised 04/2025' (kept in its printed 04/2025 form), SPL footer 4/2025 -- no cross-date ambiguity. Multiple package NDCs (0003-0893-21 for 2.5 mg 60ct, 0003-0894-21 for 5 mg 60ct, 0003-3764-74 starter pack); no single ndc can represent that, so left null."
+}

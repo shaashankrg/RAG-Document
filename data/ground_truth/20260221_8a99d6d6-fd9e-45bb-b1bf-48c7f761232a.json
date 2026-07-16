@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20260221_8a99d6d6-fd9e-45bb-b1bf-48c7f761232a.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 68,
+  "fields": {
+    "brand_name": "PAXLOVID",
+    "generic_name": "nirmatrelvir and ritonavir",
+    "dosage_form": "tablets, co-packaged for oral use",
+    "manufacturer_labeler": "Pfizer Laboratories Div Pfizer Inc",
+    "application_number": "NDA217188",
+    "initial_us_approval": "2023",
+    "revision_dates": {
+      "prescribing_information": "2/2026",
+      "spl_document": "2/2026",
+      "medication_guide": null
+    },
+    "has_boxed_warning": true,
+    "boxed_warning_title": "SIGNIFICANT DRUG INTERACTIONS WITH PAXLOVID",
+    "indication_summary": "Combination of nirmatrelvir (a SARS-CoV-2 main protease inhibitor) and ritonavir (an HIV-1 protease inhibitor and CYP3A inhibitor) indicated for the treatment of mild-to-moderate COVID-19 in adults at high risk for progression to severe COVID-19, including hospitalization or death. Not approved for pre-exposure or post-exposure prophylaxis.",
+    "dosage_forms_strengths": "Nirmatrelvir tablets: 150 mg; ritonavir tablets: 100 mg; co-packaged (standard dose: 300 mg nirmatrelvir with 100 mg ritonavir twice daily for 5 days)",
+    "ndc": null
+  },
+  "notes": "Co-packaged combination product: two different drugs in one package under one NDA, so generic_name is the combination and dosage_forms_strengths describes both components -- there is no single-molecule strength list like the other labels. The SPL title carries no dosage-form suffix ('PAXLOVID- nirmatrelvir and ritonavir'); the form here comes from the HIGHLIGHTS title line. All revision dates agree on February 2026: PI 'Revised: 2/2026', Patient Information 'Revised: 02/2026', SPL footer 2/2026 (medication_guide null: it is 'Patient Information', not a formal Medication Guide). Initial U.S. Approval 2023 (it had earlier EUA history, which the approval year does not capture). Largest establishment block in the set (6 manufacturing sites) and many dose-pack NDCs (0069-5045, -5321, -5317, -0521, -5434, -5450 series) covering standard and renal-dose configurations; ndc left null."
+}

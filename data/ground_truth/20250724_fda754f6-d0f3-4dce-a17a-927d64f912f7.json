@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20250724_fda754f6-d0f3-4dce-a17a-927d64f912f7.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 50,
+  "fields": {
+    "brand_name": "ZOLOFT",
+    "generic_name": "sertraline hydrochloride",
+    "dosage_form": "tablet, film coated; solution, concentrate",
+    "manufacturer_labeler": "Viatris Specialty LLC",
+    "application_number": "NDA019839, NDA020990",
+    "initial_us_approval": "1991",
+    "revision_dates": {
+      "prescribing_information": "8/2023",
+      "spl_document": "8/2023",
+      "medication_guide": "8/2023"
+    },
+    "has_boxed_warning": true,
+    "boxed_warning_title": "SUICIDAL THOUGHTS AND BEHAVIORS",
+    "indication_summary": "Selective serotonin reuptake inhibitor (SSRI) indicated for the treatment of major depressive disorder (MDD), obsessive-compulsive disorder (OCD), panic disorder (PD), posttraumatic stress disorder (PTSD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD).",
+    "dosage_forms_strengths": "Tablets: 25 mg, 50 mg and 100 mg; Oral solution: 20 mg/mL",
+    "ndc": null
+  },
+  "notes": "Two NDA numbers cover the two formulations combined into one label (NDA019839 tablets, NDA020990 oral solution), same multi-NDA pattern as XELJANZ. All three revision dates agree on 8/2023 (PI, Medication Guide 'Revised: 8/2023', SPL footer) -- no cross-date ambiguity. Same labeler as the LIPITOR document in this set (Viatris Specialty LLC), useful as a pair for labeler-extraction tests. Multiple package NDCs across strengths and the oral solution (58151-574-93, 58151-575-93/-88, 58151-576-93/-88, 58151-601-35); no single value can represent that, so ndc left null. The oral solution has a formulation-specific contraindication (disulfiram, due to alcohol content) that does not apply to tablets -- a subtle formulation-conditional fact worth testing extraction against."
+}

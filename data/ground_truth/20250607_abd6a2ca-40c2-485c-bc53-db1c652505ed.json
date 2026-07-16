@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20250607_abd6a2ca-40c2-485c-bc53-db1c652505ed.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 30,
+  "fields": {
+    "brand_name": "NORVASC",
+    "generic_name": "amlodipine besylate",
+    "dosage_form": "tablet",
+    "manufacturer_labeler": "PFIZER LABORATORIES DIV PFIZER INC",
+    "application_number": "NDA019787",
+    "initial_us_approval": "1992",
+    "revision_dates": {
+      "prescribing_information": "1/2019",
+      "spl_document": "1/2019",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "Calcium channel blocker indicated, alone or in combination with other antihypertensive and antianginal agents, for the treatment of hypertension (to lower blood pressure) and coronary artery disease: chronic stable angina, vasospastic angina (Prinzmetal's or variant angina), and angiographically documented CAD in patients without heart failure or ejection fraction < 40%.",
+    "dosage_forms_strengths": "Tablets: 2.5 mg, 5 mg, and 10 mg",
+    "ndc": null
+  },
+  "notes": "PI and SPL 'Revised:' dates agree (1/2019), but there is a THIRD, older date embedded mid-document: the patient-information insert carries its own footer 'LAB-0015-10.0 Revised March 2017'. It is FDA-approved patient labeling, not a formal Medication Guide, so medication_guide stays null and the date is recorded here instead. Six package NDCs across three strengths (0069-1520-68; 0069-1530-68/-41/-72; 0069-1540-68/-41); no single value can represent that, so ndc left null. Extraction quirk worth knowing: the HIGHLIGHTS Adverse Reactions text contains a literal 'Error! Hyperlink reference not valid.' artifact carried over from the source document authoring tool -- it is genuinely in the extracted text, not an extraction bug."
+}

@@ -1,0 +1,19 @@
+{
+  "_readme": "Held-out retrieval eval set: one question per routable document (14 total). LOCKED BEFORE the first eval run (2026-07-06) and not edited afterward -- expected_phrase values were verified to exist verbatim in each document's first-2-page text (the retrieval corpus) during set construction, but no retrieval was run until the set was frozen. expected_phrase is scored against the top-1 retrieved chunk with eval.scoring.is_match (fuzzy window match, threshold 0.75). Questions are phrased naturally and are NOT designed to avoid known system weaknesses (e.g. reading-order-displaced bullet content in LIPITOR/IBRANCE/PAXLOVID/XELJANZ HIGHLIGHTS chunks) -- failures those cause are real findings, not eval bugs.",
+  "questions": [
+    {"id": 1, "document": "CHANTIX", "question": "What is the boxed warning for CHANTIX about?", "expected_phrase": "Serious neuropsychiatric events have been reported in patients taking CHANTIX"},
+    {"id": 2, "document": "LIPITOR", "question": "What is LIPITOR used for?", "expected_phrase": "adjunct to diet"},
+    {"id": 3, "document": "IBRANCE", "question": "What is IBRANCE used for?", "expected_phrase": "advanced or metastatic breast cancer"},
+    {"id": 4, "document": "XELJANZ", "question": "What is the boxed warning for XELJANZ about?", "expected_phrase": "tuberculosis"},
+    {"id": 5, "document": "PREVNAR 20", "question": "What is the recommended dosage for PREVNAR 20?", "expected_phrase": "single dose in adults 18 years of age and older"},
+    {"id": 6, "document": "ZITHROMAX", "question": "What is ZITHROMAX indicated for?", "expected_phrase": "community-acquired pneumonia"},
+    {"id": 7, "document": "BENEFIX", "question": "What is BENEFIX used for?", "expected_phrase": "hemophilia B"},
+    {"id": 8, "document": "ELIQUIS", "question": "What is the boxed warning for ELIQUIS about?", "expected_phrase": "Epidural or spinal hematomas may occur in patients treated with ELIQUIS"},
+    {"id": 9, "document": "NORVASC", "question": "What are the contraindications for NORVASC?", "expected_phrase": "Known sensitivity to amlodipine"},
+    {"id": 10, "document": "ZOLOFT", "question": "What is the recommended dosage for ZOLOFT?", "expected_phrase": "50 mg per day"},
+    {"id": 11, "document": "DEPO-PROVERA", "question": "What is the boxed warning for DEPO-PROVERA about?", "expected_phrase": "may lose significant bone mineral density"},
+    {"id": 12, "document": "VIAGRA", "question": "What are the drug interactions for VIAGRA?", "expected_phrase": "potentiate the hypotensive effects of nitrates"},
+    {"id": 13, "document": "PAXLOVID", "question": "What is the boxed warning for PAXLOVID about?", "expected_phrase": "strong CYP3A inhibitor, which may lead to greater exposure"},
+    {"id": 14, "document": "NURTEC ODT", "question": "What is NURTEC ODT used for?", "expected_phrase": "acute treatment of migraine with or without aura in adults"}
+  ]
+}

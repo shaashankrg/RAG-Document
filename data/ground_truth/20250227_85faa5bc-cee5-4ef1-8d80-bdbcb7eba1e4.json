@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20250227_85faa5bc-cee5-4ef1-8d80-bdbcb7eba1e4.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 54,
+  "fields": {
+    "brand_name": "BeneFIX",
+    "generic_name": "coagulation factor ix (recombinant)",
+    "dosage_form": "lyophilized powder for solution, for intravenous use",
+    "manufacturer_labeler": "Wyeth BioPharma Division of Wyeth Pharmaceuticals LLC",
+    "application_number": "BLA103677",
+    "initial_us_approval": "1997",
+    "revision_dates": {
+      "prescribing_information": "11/2022",
+      "spl_document": "2/2025",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "Recombinant human blood coagulation factor IX indicated for adults and children with hemophilia B (congenital factor IX deficiency or Christmas disease) for on-demand treatment and control of bleeding episodes, perioperative management of bleeding, and routine prophylaxis to reduce the frequency of bleeding episodes. Not indicated for induction of immune tolerance.",
+    "dosage_forms_strengths": "Lyophilized powder in single-use vials containing nominally 250, 500, 1000, 2000, or 3000 IU",
+    "ndc": null
+  },
+  "notes": "Biologic licensed under a BLA (BLA103677), like PREVNAR 20 and unlike the small-molecule NDA labels in this set. Brand name is styled 'BeneFIX' (mixed case) in the label itself, though the SPL title uppercases it -- exact-match evaluation should be case-insensitive for this document. Has two distinct, both-legitimate 'Revised:' dates: Prescribing Information says 11/2022, SPL trailing block says 2/2025. Dosing is weight- and recovery-based (IU/kg formula), structurally different from the fixed-dose small-molecule labels. Five vial strengths each carry their own vial NDC (58394-133/134/135/136/137-03) plus a parallel kit NDC series (58394-633 through -637); no single ndc value can represent that, so left null rather than picking one arbitrarily."
+}

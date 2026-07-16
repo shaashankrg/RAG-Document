@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20251219_199cf13e-0859-4a73-9b45-e700d0cd1049.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 34,
+  "fields": {
+    "brand_name": "DEPO-PROVERA CI",
+    "generic_name": "medroxyprogesterone acetate",
+    "dosage_form": "injection, suspension",
+    "manufacturer_labeler": "Pharmacia & Upjohn Company LLC",
+    "application_number": "NDA020246",
+    "initial_us_approval": "1959",
+    "revision_dates": {
+      "prescribing_information": "12/2025",
+      "spl_document": "12/2025",
+      "medication_guide": null
+    },
+    "has_boxed_warning": true,
+    "boxed_warning_title": "LOSS OF BONE MINERAL DENSITY",
+    "indication_summary": "Progestin indicated for use by females of reproductive potential to prevent pregnancy. Limitations of Use: not recommended as a long-term (longer than 2 years) birth control method unless other options are considered inadequate.",
+    "dosage_forms_strengths": "Vials containing sterile aqueous suspension: 150 mg per mL; prefilled syringes packaged with 22-gauge x 1 1/2 inch needles",
+    "ndc": null
+  },
+  "notes": "SPL title says 'DEPO-PROVERA' but the label content consistently uses 'DEPO-PROVERA CI' (CI = Contraceptive Injection) -- the CI suffix distinguishes this contraceptive product from the oncology-dose Depo-Provera, so brand matching needs to tolerate both forms. All revision dates agree on December 2025: PI 'Revised: 12/2025', patient labeling 'Revised December 2025' (FDA-approved patient labeling, not a formal Medication Guide, hence medication_guide null), SPL footer 12/2025. Initial U.S. Approval 1959 refers to the medroxyprogesterone acetate molecule; this contraceptive NDA020246's own marketing start in the SPL data is 10/29/1992 -- two different, both-real years, do not conflate. Two package NDCs (vial 0009-0746-30, prefilled syringe 0009-7376-11); ndc left null rather than picking one."
+}

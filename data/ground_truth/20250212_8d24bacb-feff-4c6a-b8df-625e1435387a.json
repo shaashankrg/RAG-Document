@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20250212_8d24bacb-feff-4c6a-b8df-625e1435387a.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 26,
+  "fields": {
+    "brand_name": "ZITHROMAX",
+    "generic_name": "azithromycin dihydrate",
+    "dosage_form": "injection, powder, lyophilized, for solution",
+    "manufacturer_labeler": "Pfizer Laboratories Div Pfizer Inc",
+    "application_number": "NDA050733",
+    "initial_us_approval": "1991",
+    "revision_dates": {
+      "prescribing_information": "1/2022",
+      "spl_document": "2/2025",
+      "medication_guide": null
+    },
+    "has_boxed_warning": false,
+    "boxed_warning_title": null,
+    "indication_summary": "Macrolide antibacterial drug indicated for mild to moderate infections caused by designated, susceptible bacteria: community-acquired pneumonia in adults and pelvic inflammatory disease in adults, by the intravenous route.",
+    "dosage_forms_strengths": "Single-dose vial of white to off-white lyophilized powder equivalent to 500 mg of azithromycin for intravenous administration",
+    "ndc": "0069-0400-01"
+  },
+  "notes": "This is the IV-injection ZITHROMAX label, not the more common oral tablet/suspension label -- indications are limited to CAP and PID, much narrower than oral azithromycin. Has two distinct, both-legitimate 'Revised:' dates: the Prescribing Information body says 1/2022, while the SPL document's trailing establishment block says 2/2025 -- a 3-year gap, same administrative-resubmission pattern as PREVNAR 20 in this sample set. ndc is the single-dose vial (0069-0400-01); the carton configuration 0069-0400-10 'Contains 10 of NDC 0069-0400-01', so the vial NDC is the representative unit. No boxed warning: page 0 has only the ordinary WARNINGS AND PRECAUTIONS section (a naive 'WARNING' string match would false-positive here)."
+}

@@ -1,0 +1,24 @@
+{
+  "source_pdf": "20250531_87e2da8d-432c-4ed5-67a1-dc26294b2295.pdf",
+  "document_type": "fda_prescribing_information",
+  "num_pages": 29,
+  "fields": {
+    "brand_name": "PREMARIN INTRAVENOUS",
+    "generic_name": "conjugated estrogens",
+    "dosage_form": "injection, powder, lyophilized, for solution",
+    "manufacturer_labeler": "Wyeth Pharmaceuticals LLC, a subsidiary of Pfizer Inc.",
+    "application_number": "NDA010402",
+    "initial_us_approval": null,
+    "revision_dates": {
+      "prescribing_information": "02/2024",
+      "spl_document": "5/2025",
+      "medication_guide": null
+    },
+    "has_boxed_warning": true,
+    "boxed_warning_title": "ENDOMETRIAL CANCER, CARDIOVASCULAR DISORDERS, BREAST CANCER and PROBABLE DEMENTIA",
+    "indication_summary": "Indicated in the treatment of abnormal uterine bleeding due to hormonal imbalance in the absence of organic pathology; for short-term use only, to provide a rapid and temporary increase in estrogen levels.",
+    "dosage_forms_strengths": "Single-dose vial containing 25 mg/vial of conjugated estrogens, USP, for injection (reconstituted; for intravenous or intramuscular use)",
+    "ndc": "0046-0749-05"
+  },
+  "notes": "STRUCTURAL OUTLIER: this is an old-format (pre-Physician Labeling Rule) label -- there is NO 'HIGHLIGHTS OF PRESCRIBING INFORMATION' block, no 'Initial U.S. Approval' line (hence null; the SPL marketing start date is 12/01/1956 but that is a different concept, so it was not substituted), and no numbered sections (sections are unnumbered 'INDICATIONS AND USAGE', 'CONTRAINDICATIONS', 'WARNINGS', 'PRECAUTIONS', etc; boxed warning sits on its own page 1 as 'WARNING: ...' and body text cross-references 'BOXED WARNINGS'). prescribing_information revision comes from the PI footer 'LAB-0505-6.0 Revised 02/2024' (kept as printed, 02/2024); the SPL trailing block says 5/2025 -- two distinct, both-legitimate dates. Single NDC 0046-0749-05 covers the only packaging configuration, so ndc is populated. Page 0 of extraction is just the SPL title block plus 'Rx only'; all real content starts page 1."
+}
